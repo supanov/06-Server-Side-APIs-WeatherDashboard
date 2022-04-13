@@ -14,51 +14,112 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>Weather Dashboard</h1>
+    <header>
+        <div class="dashboard">
+            <div class="col-12">
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
     </header>
 
     <div class="container">
-        <section class="searchForm">
-            <div class="row">
-                <h2>Search for a City:</h2>
-            </div>
 
-            <div class="row">
-                <input type="text" class="searchInput" placeholder="Atlanta">
+        <div class="row">
+            <h2>Search for a City:</h2>
+            <form id="search-form">
+                <input id="search-form-city-input"
+                type="text" class="searchInput"
+                placeholder="Atlanta"
+                />
+                <button type="submit" class="searchBtn">Search</button>
 
-                <button type="submit" class="searchBtn"></button>
-            </div>
-            <div class="searchHistory"></div>
-        </section>
+                <div class="searchHistory"></div>
+            </form>
+    </div>
+
+    <!-- Left content  -->
+    <section>
+        <div class="cityNames">
+            <a class="list-group-item" id="5809844">Seattle</a>
+            <a class="list-group-item" id="4887398">Chicago</a>
+            <a class="list-group-item" id="4164138">Miami</a>
+            <a class="list-group-item" id="5128581">New York</a>
+            <a class="list-group-item" id="5368361">Los Angeles</a>
+            <a class="list-group-item" id="5419384">Denver</a>
+            <a class="list-group-item" id="4180439">Atlanta</a>
+            <a class="list-group-item" id="4684888">Dallas</a>
+            <a class="list-group-item" id="4720131">Portland</a>
+            <a class="list-group-item" id="4335045">New Orleans</a>
+            <a class="list-group-item" id="5391811">San Diego</a>
+            <a class="list-group-item" id="4644585">Nashville</a>
+          
+        </div>
+    </section>
+        
 
         <section>
             <div>
                 <div class="forecast">
-                    <div class="row">
-                        <h1 class="cityName">City Name</h1>
-                    </div>
-                    <div class="row">
-                        <p class="temp">Temperature:</p>
-                    </div>
-                    <div class="row">
-                        <p class="humidity">Humidity:</p>
-                    </div>
-                    <div class="row">
-                        <p class="windSpeed">Wind Speed:</p>
-                    </div>
-                    <div class="row">
-                        <p class="uvIndex">UV Index:</p>
-                    </div>
                 </div>
         </section>
 
 
         <div class="five-day-container">
-            <h1>5-Day Forecast:</h1>
-            <div class="card-row">
-            </div>
+            <h2>5-Day Forecast:</h2>
+            <div id="fiveDay" class="row">
+
+            
+                <div class="col-sm-2">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+               
+              </div>
+            
         </div>
+
+        
     </div>
     </div>
 

@@ -1,0 +1,11 @@
+h1 {
+    color: white;
+    text-align:center;
+    font-size: 38px;
+}
+
+
+.dashboard {
+    background-image: linear-gradient(to right, rgb(47, 54, 255) , rgb(6, 9, 91)); 
+
+}
