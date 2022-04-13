@@ -9,3 +9,12 @@ h1 {
     background-image: linear-gradient(to right, rgb(47, 54, 255) , rgb(6, 9, 91)); 
 
 }
+
+.cityNames {
+    margin-top: 15px;
+    background-color: lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}

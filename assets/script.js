@@ -47,7 +47,90 @@ function getCityDayWeather(city) {
                     <p class="uvIndex">UV Index${fiveDayForecast.current.uvi}</p>
                     </div>`
 
-                    fiveDay.innerHTML =` `
+
+                    fiveDay.innerHTML =` <div class="col-sm-2">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Date</h5>
+                        <p class="card-text">Weather Icon:
+                            <br>
+                            Temp:${data.main.temp}
+                            <br>
+                            Wind:${data.wind.speed}
+                            <br>
+                            Humidity:${data.main.humidity}
+                        </p>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Date</h5>
+                        <p class="card-text"> Weather Icon:
+                            <br>
+                            Temp:${data.main.temp}
+                            <br>
+                            Wind:${data.wind.speed}
+                            <br>
+                            Humidity:${data.main.humidity}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Date</h5>
+                          <p class="card-text">
+                              Weather Icon:
+                              <br>
+                              Temp:${data.main.temp}
+                              <br>
+                              Wind:${data.wind.speed}
+                              <br>
+                              Humidity:${data.main.humidity}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Date</h5>
+                          <p class="card-text">
+                              Weather Icon:
+                              <br>
+                              Temp:${data.main.temp}
+                              <br>
+                              Wind:${data.wind.speed}
+                              <br>
+                              Humidity:${data.main.humidity}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Date</h5>
+                          <p class="card-text">
+                              Weather Icon:
+                              <br>
+                              Temp:${data.main.temp}
+                              <br>
+                              Wind:${data.wind.speed}
+                              <br>
+                              Humidity:${data.main.humidity}
+                          </p>
+                        </div>
+                      </div>
+                    </div>`
                 })
 
         })
